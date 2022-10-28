@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ejercicio 2005</title>
+    <title>Ejercicio 2006</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta name="description" content="ejercicio 2005">
+    <meta name="description" content="ejercicio 2006">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="EMRT" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -20,7 +20,7 @@
         <hr class="my-2">
         <p></p>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" onclick="requestAjax()" href="#" role="button">Other joke</a>
+            <a id="aRequest" class="btn btn-primary btn-lg" href="#" role="button">Other joke</a>
         </p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -29,25 +29,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
+    </script>
     <script type="application/javascript">
-        window.onload = function () {
+        $("#aRequest").on("click", function () {
             requestAjax();
-        };
+        });
+
+        $(document).ready(function () {
+            requestAjax();
+        });
 
         var requestAjax = function () {
-            xmlhttp = new XMLHttpRequest();
-            xmlhttp.open('GET', 'https://api.chucknorris.io/jokes/random', true);
-            xmlhttp.onreadystatechange = function () {
-                if (xmlhttp.readyState === XMLHttpRequest.DONE) {
-                    if (xmlhttp.status === 0 || (xmlhttp.status >= 200 && xmlhttp.status < 400)) {
-                        var textoChiste = JSON.parse(this.response).value;
-                        console.log('chiste recibido: ' + textoChiste);
-                        var h1s = document.getElementsByTagName('h1');
-                        h1s[0].innerHTML = textoChiste;
-                    }
-                }
-            }
-            xmlhttp.send();
+            $.get("https://api.chucknorris.io/jokes/random", (response) => {
+                var textoChiste = response.value;
+                $('h1').text(textoChiste);
+            })
         }
     </script>
 </body>
