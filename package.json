@@ -1,0 +1,23 @@
+{
+  "name": "chucknorris",
+  "version": "1.0.0",
+  "description": "Laboratorio Computación en cliente web",
+  "main": "chuckNorrisNodeFetch.js",
+  "scripts": {
+    "chuck": "node chuckNorrisNodeFetch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mar2262001/chucknorris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mar2262001/chucknorris/issues"
+  },
+  "homepage": "https://github.com/mar2262001/chucknorris#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.8"
+  }
+}
