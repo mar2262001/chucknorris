@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 2006</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="description" content="ejercicio 2006">
+    <meta name="author" content="EMRT" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <div class="section hero">
+    <div class="container">
+        <div class="row">
+          <chuck-norris-joke id="1"></chuck-norris-joke>       
+          <chuck-norris-joke id="2"></chuck-norris-joke>
+          <chuck-norris-joke id="3"></chuck-norris-joke>
+          <chuck-norris-joke id="4"></chuck-norris-joke>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type='module'> 
+      import { ChuckNorrisJoke } from './js/index.js'; 
+      window.customElements.define('chuck-norris-joke', ChuckNorrisJoke); 
+    </script>
+</body>
+</html>
