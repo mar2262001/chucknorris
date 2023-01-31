@@ -332,7 +332,7 @@ ___
 *   Instalacion de bower
 
 ![chuckNorrisNodeFetch.js](/img/web-component.jpg)
-[![chuckNorrisNodeFetch.js](/img/web-Component-Result.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuckWebComponent.html)
+[![chuckNorrisNodeFetch.js](/img/webComponentResult.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuckWebComponent.html)
 
 <a name="10"></a>
 * **Link del proyecto**
