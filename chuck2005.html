@@ -41,7 +41,6 @@
                 if (xmlhttp.readyState === XMLHttpRequest.DONE) {
                     if (xmlhttp.status === 0 || (xmlhttp.status >= 200 && xmlhttp.status < 400)) {
                         var textoChiste = JSON.parse(this.response).value;
-                        console.log('chiste recibido: ' + textoChiste);
                         var h1s = document.getElementsByTagName('h1');
                         h1s[0].innerHTML = textoChiste;
                     }
