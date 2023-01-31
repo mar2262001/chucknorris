@@ -329,7 +329,7 @@ ___
 
 ![http-server](https://i.ibb.co/gdqcRtF/install-http-server-nodejs.jpg "lifeCycle")
 
-*   Instalacion de http-server
+*   Instalacion de bower
 
 ![chuckNorrisNodeFetch.js](https://i.ibb.co/ZxjfPpp/web-component.jpg)
 [![chuckNorrisNodeFetch.js](https://i.ibb.co/Wf7GNVr/web-Component-Result.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuckWebComponent.html)
