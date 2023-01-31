@@ -77,7 +77,7 @@ ___
     ```
     *   Se pide, aplicar este script y sustituir el texto del chiste en el título central de un elemento Jumbotron del framework Bootstrap. Evidentemente, al código anterior le falta el «andamiaje» HTML.
 
-    [![chuck2005.html](https://i.ibb.co/8xk9znS/chuck1.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuck2005.html)
+    [![chuck2005.html](/img/chuck1.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuck2005.html)
     
 <a name="5"></a>
 - **Ejercicio No 2 (Resolución del ejercicio a la manera de 2006 "jQuery")**
@@ -96,7 +96,7 @@ ___
 
 *   Se pide, replicar el ejemplo anterior con jQuery. 
 
-[![chuck2006.html](https://i.ibb.co/bL4vM3s/chuck2.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuck2006.html)
+[![chuck2006.html](/img/chuck2.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuck2006.html)
 
 *   ¿Qué diferencias ves con respecto al ejercicio anterior?
     *   La principal diferencia que veo es que ahora solo ocupamos una sola función que al mandarle un solo parámetro, esta librería jQuery nos abstrae de usar xmlhttp, y todos sus parámetros y configuración para usar la función get, esto nos ahorra varias lineas de código.
@@ -158,7 +158,7 @@ ___
             findJokersForCategory(this);
         };
     ```
-    [![chuck2014.html](https://i.ibb.co/VLnCfYg/chuck3.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuck2014.html)
+    [![chuck2014.html](/img/chuck3.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuck2014.html)
 
 <a name="7"></a>
 * **Ejercicio No 4 (Resolución en 2014 "Fetch)**
@@ -187,7 +187,7 @@ ___
             }
         }
     ```
-    [![chuck2014-1.html](https://i.ibb.co/VLnCfYg/chuck3.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuck2014-1.html)
+    [![chuck2014-1.html](/img/chuck4.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuck2014-1.html)
 
     *   Responde a esta pregunta: 
     *   ¿Qué es el [WHATWG](https://whatwg.org/)? (organismo que, entre otras cosas, ha definido la API del método fetch).
@@ -214,9 +214,9 @@ ___
     ```
 
     *   Instalación de node-fetch
-    [![chuckNorrisNodeFetch.js](https://i.ibb.co/RvH3BYq/install-node-fetch.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuckNorrisNodeFetch.js)
+    [![chuckNorrisNodeFetch.js](/img/install-node-fetch.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuckNorrisNodeFetch.js)
     *  Resultado en consola
-    [![console](https://i.ibb.co/DWBZjdS/node-fetch.jpg)]
+    [![console](/img/node-fetch.jpg)]
 
 <a name="9"></a>
 * **Ejercicio No 6 (Web Components)**
@@ -253,7 +253,7 @@ ___
 
 *   Ciclo de vida de web component
 
-    ![Image text](https://i.ibb.co/jGDHkwQ/Ciclo-de-vida.jpg "lifeCycle")
+    ![Image text](/img/Ciclo-de-vida.jpg "lifeCycle")
 
     *   constructor(): Siempre empieza llamando a super() de forma que se establezca correctamente el encadenado del prototipo. Dentro del constructor, debemos definir toda la funcionalidad que tendrá el elemento cuando se instancie.
 
@@ -327,12 +327,12 @@ ___
 
 *   Instalacion de http-server
 
-![http-server](https://i.ibb.co/gdqcRtF/install-http-server-nodejs.jpg "lifeCycle")
+![http-server](/img/install-http-server-nodejs.jpg "lifeCycle")
 
 *   Instalacion de bower
 
-![chuckNorrisNodeFetch.js](https://i.ibb.co/ZxjfPpp/web-component.jpg)
-[![chuckNorrisNodeFetch.js](https://i.ibb.co/Wf7GNVr/web-Component-Result.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuckWebComponent.html)
+![chuckNorrisNodeFetch.js](/img/web-component.jpg)
+[![chuckNorrisNodeFetch.js](/img/web-Component-Result.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuckWebComponent.html)
 
 <a name="10"></a>
 * **Link del proyecto**
