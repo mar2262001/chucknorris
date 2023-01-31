@@ -342,17 +342,17 @@ ___
 <a name="11"></a>
 * **Referencias**
 
-*   [web components](https://www.paradigmadigital.com/dev/crea-tus-primeros-web-components/)
-*   [ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
-*   [Chuck Norris](https://chucknorris.com/)
-*   [base de datos oficial](https://api.chucknorris.io/)
-*   [XMLHttpRequest](https://www.w3.org/TR/2012/NOTE-XMLHttpRequest1-20120117/)
-*   [jQuery](https://jquery.org/)
-*   [CDN](https://code.jquery.com/)
-*   [fetch](https://wiki.whatwg.org/wiki/Fetch)
-*   [fundación Mozilla](https://developer.mozilla.org/es/docs/Web/API/Fetch_API).
-*   [WHATWG](https://whatwg.org/)
-*   [W3C](https://www.w3.org/TR/html-imports/)
-*   [http-server](https://www.npmjs.com/package/http-server)
-*   [Skeleton](http://getskeleton.com/)
-*   [materialize](https://materializecss.com/)
+    *   [web components](https://www.paradigmadigital.com/dev/crea-tus-primeros-web-components/)
+    *   [ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
+    *   [Chuck Norris](https://chucknorris.com/)
+    *   [base de datos oficial](https://api.chucknorris.io/)
+    *   [XMLHttpRequest](https://www.w3.org/TR/2012/NOTE-XMLHttpRequest1-20120117/)
+    *   [jQuery](https://jquery.org/)
+    *   [CDN](https://code.jquery.com/)
+    *   [fetch](https://wiki.whatwg.org/wiki/Fetch)
+    *   [fundación Mozilla](https://developer.mozilla.org/es/docs/Web/API/Fetch_API).
+    *   [WHATWG](https://whatwg.org/)
+    *   [W3C](https://www.w3.org/TR/html-imports/)
+    *   [http-server](https://www.npmjs.com/package/http-server)
+    *   [Skeleton](http://getskeleton.com/)
+    *   [materialize](https://materializecss.com/)
