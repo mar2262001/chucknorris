@@ -327,9 +327,12 @@ ___
 
 *   Instalacion de http-server
 
- ![http-server](https://i.ibb.co/gdqcRtF/install-http-server-nodejs.jpg "lifeCycle")
+![http-server](https://i.ibb.co/gdqcRtF/install-http-server-nodejs.jpg "lifeCycle")
 
- [![chuckNorrisNodeFetch.js](https://i.ibb.co/ZxjfPpp/web-component.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuckWebComponent.html)
+*   Instalacion de http-server
+
+![chuckNorrisNodeFetch.js](https://i.ibb.co/ZxjfPpp/web-component.jpg)
+[![chuckNorrisNodeFetch.js](https://i.ibb.co/Wf7GNVr/web-Component-Result.jpg)](https://github.com/mar2262001/chucknorris/blob/e51b03842d72f224d170a6211cf42069f5023041/chuckWebComponent.html)
 
 <a name="10"></a>
 * **Link del proyecto**
